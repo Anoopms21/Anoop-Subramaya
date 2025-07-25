@@ -1,184 +1,231 @@
 <!DOCTYPE HTML>
-<!-- 740 X 434
-370 X 217  -->
 <html>
-	<head>
-		<title>Anoop Subramanya</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
-		<style>
-			body {
+<head>
+    <title>Anoop Subramanya</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <style>
+        body {
             margin: 0;
             background-color: #000;
             color: #ddd;
             font-family: sans-serif;
             display: flex;
-            }
-            
-            /* Reduce space between sections */
-			#projects {
-				margin-top: -280px;
-			}
+        }
 
-			/* Reduce line spacing in paragraphs */
-			p {
-				line-height: 1.1;
-			}
-		</style>
-	</head>
-	<body class="is-preload">
+        #sidebar {
+            background-color: #111;
+            width: 450px;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            height: 100vh;
+        }
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/profile_1.jpg" alt="" /></a>
-					<h1><strong>Anoop Subramanya</strong><br/>
-						Master's in Mechanical Engieering @ CU Boulder</h1>
-				</div>
-			</header>
+        #sidebar img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 2px solid #444;
+            margin-bottom: 15px;
+        }
 
-		<!-- Main -->
-			<div id="main">
+        #sidebar h1 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2><b>Hello, I'm Anoop.</b></h2>
-						</header>
-						<p> I am currently pursuing a Master’s in Mechanical Engieering (MSME) at the <a href="https://www.colorado.edu/">University of Colorado Boulder</a> and actively seeking interships or full-time opportunities. 
-						<br/><br/>
-						<br><br>
-                        I'm a passionate mechanical engineer with a focus on design, aerodynamics, and innovation.
-                        Specializes in CAD modeling, CFD, and hands-on projects that bridge theory with real-world performance.
-                        Fairly experienced across motorsports, product development, and engineering research, constantly pushing boundaries.
-                        Driven by curiosity, creativity, and the pursuit of transforming ideas into impactful solutions.
-						
-						<br/><br/>
-						When I’m not working on projects or learning something new, you’ll usually find me <a href="Fun1.html" style="text-decoration: none; color: rgb(238, 238, 238);">Snowboarding</a> 
-                        or <a href="Fun1.html" style="text-decoration: none; color: rgb(238, 238, 238);">Marshalling</a> at the racetrack, chasing a bit of adrenaline-fueled fun.
-						</b> 
-						</p>
-					</section>
+        #sidebar p {
+            font-size: 19px;
+            color: #aaa;
+            margin-bottom: 350px;
+        }
 
-				<!-- Two -->
-					<section id="projects">
-						<h2 style="color: #5f5d5d;">Personal Projects</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://aashish75.github.io/VisualisingAttentionMapsVQA/" target="_blank" class="image fit thumb"><img src="images/projects/att_viz.png" alt="CycleGAN" /></a>
-								<h3>Attention Visualization as Evidence For VQA</h3>
-								<p>Implemented a Grad-CAM based approach for visualizing attention in VQA. Backend app deployed in HF space.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/Aashish75/fine-tune-llama-trump" target="_blank" class="image fit thumb"><img src="images/projects/llama_trump.png" alt="FER" /></a>
-								<h3>Tweet like Trump</h3>
-								<p>Distributed Fine-tuning of Llama-3.2-1B-Instruct model to emulate Donald Trump using SageMaker and DeepSpeed.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/Aashish75/RAG-stablediffusion" target="_blank" class="image fit thumb"><img src="images/projects/RAG_2.png" alt="Quality Control using Deep-Learning" /></a>
-								<h3>Enhancing Text-to-Image Generation with RAG</h3>
-								<p>Improving Stable Diffusion prompts with Retrieval-Augmented Generation and evaluating using CLIP similarity index.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/Aashish75/yolo-tensorrt-mlflow" target="_blank" class="image fit thumb"><img src="images/projects/nvidia_tensort.png" alt="Quality Control using Deep-Learning" /></a>
-								<h3>YOLO+TensorRT+MLFlow</h3>
-								<p>Comparing the performance of YOLOv5 PyTorch model vs TensorRT model and deploying on MLFlow</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/Aashish75/news-summarization" target="_blank" class="image fit thumb"><img src="images/projects/architecture.png" alt="Quality Control using Deep-Learning" /></a>
-								<h3>News Summarization Service</h3>
-								<p>Web app for news summarization built using ReactJS, Flask, GCP and S3.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/Aashish75/blip-PathVQA-PEFT" target="_blank" class="image fit thumb"><img src="images/projects/results_blip.png" alt="emotic model" /></a>
-								<h3>Fine-Tuning BLIP on PathVQA with LoRA</h3>
-                                <p>Optimized BLIP for pathology-based Visual Question Answering (VQA) while reducing computational overhead using LoRA</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/Aashish75/wavenet-ASHA" target="_blank" class="image fit thumb"><img src="images/projects/wavenet_asha.png" alt="GAN" /></a>
-								<h3>Text Generation with Wavenet</h3>
-								<p>Optimised hyper-parameters for N-Gram text generation using ASHA (Adaptive Successive Halving Algorithm).</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/Aashish75/recommend-ncf" target="_blank" class="image fit thumb"><img src="images/projects/thumbnail.jpg" alt="GAN" /></a>
-								<h3>Movie Recommendation using FAISS and NCF</h3>
-								<p>Combined candidate generation using FAISS (a fast similarity search library) and ranking using Neural Collaborative Filtering (NCF).</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/Aashish75/transformer-attention" target="_blank" class="image fit thumb"><img src="images/projects/seq_to_seq_att.png" alt="Quality Control using Deep-Learning" /></a>
-								<h3>Seq-to-Seq Translation</h3>
-								<p>Loosely implemented "Attention Is All You Need" paper for seq-to-seq translation</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://github.com/Aashish75/agentic-research-assistant" target="_blank" class="image fit thumb"><img src="images/projects/langchain.jpg" alt="Quality Control using Deep-Learning" /></a>
-								<h3>Agentic-Research-Assistant</h3>
-								<p>Lightweight autonomous agent built using LangChain and OpenAI's GPT-3.5 that automates academic research.</p>
-							</article>
-						</div>
-						<ul class="actions">
-							<li><a href="https://github.com/Aashish75?tab=repositories" target="_blank" class="button">All Projects</a></li>
-						</ul>
-					</section>
-			<!-- Two -->
-			<section id="publications">
-				<h2 style="color: #5f5d5d;">Publications</h2>
-				<div class="row">
-					<article class="col-6 col-12-xsmall work-item">
-						<a href="https://link.springer.com/chapter/10.1007/978-981-99-2602-2_8" target="_blank" class="image fit thumb"><img src="images/projects/leaf-vit-after.png" alt="CycleGAN" /></a>
-						<h3>LeafViT: Vision Transformers based Leaf Disease Detection</h3>
-						<p>ICICV 2022, Springer</p>
-					</article>
-					<article class="col-6 col-12-xsmall work-item">
-						<a href="https://ieeexplore.ieee.org/document/10059627" target="_blank" class="image fit thumb"><img src="images/projects/unet-after.png" alt="FER" /></a>
-						<h3>U-shaped Transformers for 3D Lung Cancer Segmentation</h3>
-						<p>ICKES 2022, IEEE</p>
-					</article>
-			</section>
-					
-			</div>
+        #sidebar .icons a {
+            color: #ccc;
+            margin:  10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
+        #sidebar .icons a:hover {
+            color: #fff;
+        }
+
+        #main {
+            margin-left: 500px;
+            padding: 20px;
+            max-width: 10000px;
+        }
+
+        section {
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: #66ccff;
+        }
+
+        a:hover {
+            color: #b272e6;
+        }
+
+        h2, h3 {
+            color: #ffffff;
+        }
+
+        .work-item {
+            background-color: #222;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <img src="Images/profile.jpg.jpg" >
+        <h1>Anoop Subramanya</h1>
+        <p>Master's in Mechanical Engieering @ CU Boulder</p>
+        <div class="inner">
 					<ul class="icons">
-						<li><a href="MAILTO:aashishmukund@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						<li><a href="https://github.com/Aashish75/" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.linkedin.com/in/aashishm75/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="MAILTO:anoopms2001@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://github.com/anoopms21/" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/anoopsubramanya/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						<li><a href="files/resume.pdf" target="_blank" class="icon solid fa-file-alt"><span class="label">Resume</span></a></li>
 					</ul>
-					<ul class="copyright">
-						<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
-					</ul>
+					
 				</div>
-			</footer>
+    </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script>
-				document.addEventListener("DOMContentLoaded", function () {
-					document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-						anchor.addEventListener("click", function (e) {
-							e.preventDefault();
-							const target = document.querySelector(this.getAttribute("href"));
-							if (target) {
-								window.scrollTo({
-									top: target.offsetTop - 20,
-									behavior: "smooth"
-								});
-							}
-						});
-					});
-				});
-			</script>
+    <!-- Main Content -->
+    <div id="main">
+        <section id="about">
+            <h2>Hello, I'm Anoop</h2>
+            <p>
+                I am currently pursuing a Master’s in Mechanical Engieering (MSME) at the
+                <a href="https://www.colorado.edu/">University of Colorado Boulder</a> and actively seeking interships or full-time opportunities.
+                <br><br>
+                I'm a passionate mechanical engineer with a focus on design, aerodynamics, and innovation.
+                Specializes in CAD modeling, CFD, and hands-on projects that bridge theory with real-world performance.
+                Fairly experienced across motorsports, product development, and engineering research, constantly pushing boundaries.
+                Driven by curiosity, creativity, and the pursuit of transforming ideas into impactful solutions.
 
-	</body>
+                <br/><br/>
+						When I’m not working on projects or learning something new, you’ll usually find me <a href="Fun1.html" style="text-decoration: none; color: rgb(238, 238, 238);">Snowboarding</a> 
+                        or <a href="Fun2.html" style="text-decoration: none; color: rgb(238, 238, 238);">Marshalling</a> at the racetrack, chasing a bit of adrenaline-fueled fun.
+						
+						</p>
+            </p>
+        </section>
+
+         <section id="projects">
+  <h2 style="color: #ffffff;">Projects</h2>
+  
+  <div class="project-grid">
+    <div class="work-item">
+      <h3>F1 style DRS rear-wing aero-performance in Ansys</h3>
+      <a href="https://github.com/Anoopms21/F1-style-DRS-rear-wing-aero-performance-in-Ansys.git" target="_blank" class="image fit thumb">
+        <img src="Images/att_viz.png" alt="F1" />
+      </a>
+      <p>Simulated F1 rear wing aerodynamics using Ansys Fluent, analyzing drag, downforce, and Cp distribution to optimize aerodynamic performance.</p>
+    </div>
+
+    <div class="work-item">
+      <h3>CFD Driven Design Validation and Optimization of Heat-Sinks</h3>
+      <a href="https://github.com/Anoopms21/CFD-Driven-Design-Validation-and-Optimization-of-Heat-Sinks.git" target="_blank" class="image fit thumb">
+        <img src="Images/Heatsink main.png" alt="CFD Heat-sink" />
+      </a>
+      <p>Simulated and optimized passive heat sink designs using Phoenix in Conda. Post-processed in ParaView for enhanced natural convection performance insights.</p>
+    </div>
+
+    <div class="work-item">
+      <h3>Scale Working Model of Wind Tunnel</h3>
+      <a href="https://github.com/Anoopms21/Scale-Working-model-of-Windtunel.git" target="_blank" class="image fit thumb">
+        <img src="Images/att_viz.png" alt="Wind Tunnel" />
+      </a>
+      <p>Designed and constructed a scale wind tunnel to visualize aerodynamic flows using smoke and lightweight models.</p>
+    </div>
+
+    <!-- Add more work-items here -->
+  </div>
+</section>
+
+
+  <!-- Repeat for each project with same structure -->
+</section>
+
+
+        <section id="Technincal Seminars">
+            <h2>Quasi Turbine Engine</h2>
+            <div class="work-item">
+                <h3>Publication 1</h3>
+                <p>Details about publication 1...</p>
+            </div>
+        </section>
+
+        <section id="All India Council for Technical Education(AICTE) programme">
+            <h2>At Acharya Institutes</h2>
+            <div class="work-item">
+                <h3></h3>
+                <a href="https://github.com/Anoopms21/AICTE-Activity-Point-Programme-Report.git" target="_blank" class="image fit thumb"><img src="images/projects/att_viz.png" alt="Heat-siks" /></a>
+                <p>The main objective of the scheme is to encourage students to pursue technical education in core branches of engineering.</p>
+            </div>
+        </section>
+
+        <section id="Certifications">
+            <h2>1</h2>
+            <div class="work-item">
+                <h3>Publication 1</h3>
+                 <a href="https://github.com/Anoopms21/Certifications.git" target="_blank" class="image fit thumb"><img src="images/projects/att_viz.png" alt="Heat-siks" /></a>
+                <p>Details about publication 1...</p>
+            </div>
+
+            <h2>2</h2>
+            <div class="work-item">
+                <h3>Publication 1</h3>
+                <p>Details about publication 1...</p>
+            </div>
+
+            <h2>3</h2>
+            <div class="work-item">
+                <h3>Publication 1</h3>
+                <p>Details about publication 1...</p>
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+        
+    </div>
+
+</body>
 </html>
