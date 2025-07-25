@@ -2699,10 +2699,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 30%;
+		margin-left: 10%;
 		max-width: 60em;
 		padding: 4em 4em 4em 4em;
-		width: calc(100 - 30%);
+		width: calc(100 - 10%);
 	}
 
 		#main > section {
