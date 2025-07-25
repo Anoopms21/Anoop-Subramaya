@@ -33,19 +33,7 @@ body {
 	line-height: 1;
 }
 
-/* Project Grid - Two per row */
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2em;
-  justify-content: space-between;
-}
 
-.project-grid .work-item {
-  width: calc(50% - 1em);
-}
-
-/* Responsive fallback: 1 per row on mobile */
 @media screen and (max-width: 768px) {
   .project-grid .work-item {
     width: 100%;
