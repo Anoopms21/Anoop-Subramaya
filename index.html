@@ -1,131 +1,47 @@
 <!DOCTYPE HTML>
+<!-- 740 X 434
+370 X 217  -->
 <html>
-<head>
-    <title>Anoop Subramanya</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
-    <style>
-        body {
-            margin: 0;
-            background-color: #000;
-            color: #ddd;
-            font-family: sans-serif;
-            display: flex;
-        }
+	<head>
+		<title>Anoop Subramanya</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+		<style>
+			/* Reduce space between sections */
+			#projects {
+				margin-top: -280px;
+			}
 
-        #sidebar {
-            background-color: #111;
-            width: 450px;
-            padding: 20px;
-            text-align: center;
-            position: fixed;
-            height: 100vh;
-        }
+			/* Reduce line spacing in paragraphs */
+			p {
+				line-height: 1.1;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
 
-        #sidebar img {
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-            border: 2px solid #444;
-            margin-bottom: 15px;
-        }
-
-        #sidebar h1 {
-            color: #fff;
-            margin-bottom: 10px;
-        }
-
-        #sidebar p {
-            font-size: 19px;
-            color: #aaa;
-            margin-bottom: 350px;
-        }
-
-        #sidebar .icons a {
-            color: #ccc;
-            margin:  10px;
-            font-size: 24px;
-            text-decoration: none;
-        }
-
-        #sidebar .icons a:hover {
-            color: #fff;
-        }
-
-        #main {
-            margin-left: 500px;
-            padding: 20px;
-            max-width: 10000px;
-        }
-
-        section {
-            background-color: #1a1a1a;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 30px;
-        }
-
-        a {
-            color: #66ccff;
-        }
-
-        a:hover {
-            color: #b272e6;
-        }
-
-        h2, h3 {
-            color: #ffffff;
-        }
-
-        .work-item {
-            background-color: #222;
-            padding: 10px;
-            border-radius: 8px;
-            margin-bottom: 15px;
-        }
-
-        .button {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-        }
-
-        .button:hover {
-            background-color: #444;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Sidebar -->
-    <div id="sidebar">
-        <img src="Images/profile.jpg.jpg" >
-        <h1>Anoop Subramanya</h1>
-        <p>Master's in Mechanical Engieering @ CU Boulder</p>
-        <div class="inner">
-					<ul class="icons">
-						<li><a href="MAILTO:anoopms2001@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						<li><a href="https://github.com/anoopms21/" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.linkedin.com/in/anoopsubramanya/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="files/resume.pdf" target="_blank" class="icon solid fa-file-alt"><span class="label">Resume</span></a></li>
-					</ul>
-					
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/profile_1.jpg" alt="" /></a>
+					<h1><strong>Anoop Subramanya</strong><br/>
+						Master's in Mechanical Engieering @ CU Boulder</h1>
 				</div>
-    </div>
+			</header>
 
-    <!-- Main Content -->
-    <div id="main">
-        <section id="about">
-            <h2>Hello, I'm Anoop</h2>
-            <h3><p>
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2><b>Hello, I'm Anoop.</b></h2>
+						</header>
+						p>
                 I am currently pursuing a Master’s in Mechanical Engieering (MSME) at the
                 <a href="https://www.colorado.edu/">University of Colorado Boulder</a> and actively seeking interships or full-time opportunities.
                 <br><br>
@@ -140,214 +56,145 @@
 						
 						</p>
             </p>
-            </h3>
-        </section>
 
+					</section>
 
-        <section id="Expertise" style="background-color: #0d0d0d; color: white; padding: 4rem 2rem; font-family: sans-serif;">
-  <h2 style="font-size: 2rem; font-weight: bold; margin-bottom: 2rem;">Technical Skills</h2>
-  <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
-    
-    <!-- Design -->
-    <div style="flex: 1; min-width: 280px;">
-      <div style="font-size: 2rem;">🖥️</div>
-      <h3 style="font-weight: 700; margin: 1rem 0;">Design</h3>
-      <p>Designed and built custom hardware systems including multi-layer PCBs and embedded controllers. Proficient in debugging, performance testing, and firmware development for microcontrollers.</p>
-      <p style="margin-top: 1rem;"><strong>Softwares:</strong></p>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-        <span class="tag">SolidWorks</span><span class="tag">Catia V5</span><span class="tag">AutoCAD</span><span class="tag">Raspberry Pi</span>
-        <span class="tag">Arduino</span><span class="tag">Altium Designer</span><span class="tag">OrCAD</span><span class="tag">Embedded C</span>
-        <span class="tag">Oscilloscope</span>
-      </div>
-    </div>
+				<!-- Two -->
+					<section id="projects">
+						<h2 style="color: #5f5d5d;">Projects</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="https://github.com/Anoopms21/CFD-Driven-Design-Validation-and-Optimization-of-Heat-Sinks.git" target="_blank" class="image fit thumb"><img src="images/projects/att_viz.png" alt="CycleGAN" /></a>
+								<h3>CFD Driven Design Validation and Optimization of Heat-Sinks</h3>
+								<p>imulated and optimized passive heat sink designs using Phoenix in Conda. Post-processed in ParaView for enhanced natural convection performance insights.</p>
+							</article>
 
-    <!-- Analysis -->
-    <div style="flex: 1; min-width: 280px;">
-      <div style="font-size: 2rem;">🤖</div>
-      <h3 style="font-weight: 700; margin: 1rem 0;">Simulation and Analysis</h3>
-      <p>Applied image processing and automation techniques in systems like anti-lane departure vehicles and gesture-controlled wheelchairs. Skilled in MATLAB, Simulink, and hardware-in-the-loop integration.</p>
-      <p style="margin-top: 1rem;"><strong>Tech stack:</strong></p>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-        <span class="tag">OpenFOAM</span><span class="tag">Ansys-Fluent</span><span class="tag">Phoenix in Conda</span><span class="tag">MATLAB</span>
-        <span class="tag">Abaqus</span><span class="tag">ParaView</span>
-      </div>
-    </div>
-
-    <!-- Others  -->
-    <div style="flex: 1; min-width: 280px;">
-      <div style="font-size: 2rem;">🔗</div>
-      <h3 style="font-weight: 700; margin: 1rem 0;">Others</h3>
-      <p>Worked with USB communication protocols, bootloading, and MIDI signal transmission. Experienced in LabView, CircuitPython, and Linux-based development environments.</p>
-      <p style="margin-top: 1rem;"><strong>Tech stack:</strong></p>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-        <span class="tag">GD&T</span><span class="tag">DFM</span><span class="tag">DFMA</span><span class="tag">USB Protocols</span>
-        <span class="tag">CH340G</span><span class="tag">3DPrinting</span><span class="tag">LabView</span><span class="tag">Git</span>
-        <span class="tag">Microsoft Office Suite</span><span class="tag">Assembly Level Language</span>
-      </div>
-    </div>
-    
-  </div>
-</section>
-
-<style>
-  .tag {
-    background-color: #ffffff0d;
-    color: white;
-    padding: 0.3rem 0.8rem;
-    border-radius: 999px;
-    font-size: 0.9rem;
-    white-space: nowrap;
-  }
-</style>
-
-
-
-
-         <section id="projects">
-  <h2 style="color: #ffffff;">Projects</h2>
-  
-  <div class="project-grid">
-    <div class="work-item">
-      <h3>F1 style DRS rear-wing aero-performance in Ansys</h3>
-      <a href="https://github.com/Anoopms21/F1-style-DRS-rear-wing-aero-performance-in-Ansys.git" target="_blank" class="image fit thumb">
-        <img src="Images/F1 wing main.png" alt="F1" />
-      </a>
-       <h3><p>Simulated F1 rear wing aerodynamics using Ansys Fluent, analyzing drag, downforce, and Cp distribution to optimize aerodynamic performance.</p></h3>
-    </div>
-
-    <div class="work-item">
-      <h3>CFD Driven Design Validation and Optimization of Heat-Sinks</h3>
-      <a href="https://github.com/Anoopms21/CFD-Driven-Design-Validation-and-Optimization-of-Heat-Sinks.git" target="_blank" class="image fit thumb">
-        <img src="Images/Heatsink main.png" alt="CFD Heat-sink" />
-      </a>
-      <h3><p>Simulated and optimized passive heat sink designs using Phoenix in Conda. Post-processed in ParaView for enhanced natural convection performance insights.</p></h3>
-    </div>
-
-    <div class="work-item">
-      <h3>Scale-Working model of Windtunel</h3>
-      <a href="https://github.com/Anoopms21/Scale-Working-model-of-Windtunel.git" target="_blank" class="image fit thumb">
-        <img src="Images/Windtunnel main.png" alt="Windtunnel" />
-      </a>
-      <h3><p>Simulated and optimized passive heat sink designs using Phoenix in Conda. Post-processed in ParaView for enhanced natural convection performance insights.</p></h3>
-    </div>
-
-    <div class="work-item">
-      <h3>Crack Propagation and Failure Mechanisms in Fiber-Reinforced Composites</h3>
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Crack Propagation and Failure Mechanisms in Fiber-Reinforced Composites</h3>
       <a href="https://github.com/Anoopms21/Crack-Propagation-and-Failure-Mechanisms-in-Fiber-Reinforced-Composites.git" target="_blank" class="image fit thumb">
         <img src="Images/Paper main.png" alt="Crack propagation" />
       </a>
-      <h3><p>Studied crack propagation and failure mechanisms in fiber-reinforced composites using finite element analysis.
-        Identified key modes like fiber breakage and delamination to enhance material performance and durability.</p></h3>
-    </div>
+      <p>Studied crack propagation and failure mechanisms in fiber-reinforced composites using finite element analysis.
+        Identified key modes like fiber breakage and delamination to enhance material performance and durability.</p>
 
-     <div class="work-item">
-      <h3>Free Piston Linear Generator</h3>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Free Piston Linear Generator</h3>
       <a href="https://github.com/Anoopms21/Free-Piston-Linear-Generator.git" target="_blank" class="image fit thumb">
         <img src="Images/FPLG main.png" alt="FPLG" />
       </a>
-      <h3><p>Worked on the design and testing of a Free-Piston Linear Generator for efficient energy conversion in compact systems.
-        Focused on improving combustion dynamics, linear motion control, and overall power generation efficiency.</p></h3>
-    </div>
+      <p>Worked on the design and testing of a Free-Piston Linear Generator for efficient energy conversion in compact systems.
+        Focused on improving combustion dynamics, linear motion control, and overall power generation efficiency.</p>
 
-    <div class="work-item">
-      <h3>Novel-design of Laptop-stand with modular cooling system</h3>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Novel-design of Laptop-stand with modular cooling system</h3>
       <a href="https://github.com/Anoopms21/Novel-design-of-Laptop-stand-with-modular-cooling-system-.git" target="_blank" class="image fit thumb">
         <img src="Images/Laptop main.png" alt="Laptop-stand" />
       </a>
-      <h3><p>Designed an ergonomic laptop stand with a modular cooling system to enhance thermal management and user comfort.
-        Focused on adjustability, portability, and improved airflow for prolonged device performance.</p></h3>
-    </div>
+      <p>Designed an ergonomic laptop stand with a modular cooling system to enhance thermal management and user comfort.
+        Focused on adjustability, portability, and improved airflow for prolonged device performance.</p>
 
-    <div class="work-item">
-      <h3>Reverse-engineering of a Dyson-bladeless fan DP-01</h3>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Reverse-engineering of a Dyson-bladeless fan DP-01</h3>
       <a href="https://github.com/Anoopms21/Reverse-engineering-of-a-Dyson-bladeless-fan-DP-01-.git" target="_blank" class="image fit thumb">
         <img src="Images/Dyson main.png" alt="Dyson DP-01" />
       </a>
-      <h3><p>Reverse-engineered the Dyson DP-01 bladeless fan to understand its internal airflow mechanisms and component integration.
-        Created detailed CAD models and functional analysis to explore design efficiency and innovation.</p></h3>
-    </div>
+      <p>Reverse-engineered the Dyson DP-01 bladeless fan to understand its internal airflow mechanisms and component integration.
+        Created detailed CAD models and functional analysis to explore design efficiency and innovation.</p>
 
-    <div class="work-item">
-      <h3>Semi-autonomous hexacopter for multipurpose application</h3>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Semi-autonomous hexacopter for multipurpose application</h3>
       <a href="https://github.com/Anoopms21/Semi-autonomous-hexacopter-for-multipurpose-application.git" target="_blank" class="image fit thumb">
         <img src="Images/Drone main.png" alt="Drone" />
       </a>
-      <h3><p>Developed a semi-autonomous hexacopter capable of performing multipurpose tasks with GPS navigation and sensor integration.
-        Focused on modular design, stability, and adaptability for applications like surveillance, agriculture, and payload delivery.</p></h3>
-    </div>
+      <p>Developed a semi-autonomous hexacopter capable of performing multipurpose tasks with GPS navigation and sensor integration.
+        Focused on modular design, stability, and adaptability for applications like surveillance, agriculture, and payload delivery.</p>
 
-    <div class="work-item">
-      <h3>Design of an Adapted Sheild for drone</h3>
+
+							<article class="col-6 col-12-xsmall work-item">
+								 <h3>Design of an Adapted Sheild for drone</h3>
       <a href="https://github.com/Anoopms21/DESIGN-OF-AN-ADAPTED-SHIELD-FOR-DRONE.git" target="_blank" class="image fit thumb">
         <img src="Images/Droneguard main.png" alt="Droneguard" />
       </a>
-      <h3><p>Designed a lightweight, impact-resistant shield to protect drones from collisions and environmental hazards.
-        Emphasized aerodynamic efficiency and modularity to ensure minimal performance trade-offs during flight.</p></h3>
-    </div>
+      <p>Designed a lightweight, impact-resistant shield to protect drones from collisions and environmental hazards.
+        Emphasized aerodynamic efficiency and modularity to ensure minimal performance trade-offs during flight.</p>
 
-    <div class="work-item">
-      <h3>Modeling of Boeing-777 </h3>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Modeling of Boeing-777 </h3>
       <a href="https://github.com/Anoopms21/Modeling-of-Boeing-777.git" target="_blank" class="image fit thumb">
         <img src="Images/Plane main.png" alt="Plane" />
       </a>
-      <h3><p>Built a scaled, app-controlled model of the Boeing 777 using Arduino and Depron foam to demonstrate control surface deflections.
-        Gained hands-on experience in aircraft structure, SolidWorks modeling, and wireless control integration via Bluetooth.</p></h3>
-    </div>
-    <!-- Add more work-items here -->
-  </div>
-</section>
+      <p>Built a scaled, app-controlled model of the Boeing 777 using Arduino and Depron foam to demonstrate control surface deflections.
+        Gained hands-on experience in aircraft structure, SolidWorks modeling, and wireless control integration via Bluetooth.</p>
 
+							</article>
 
-  <!-- Repeat for each project with same structure -->
-</section>
-
-
-        <section id="Technincal Seminars">
-            <h2>Technincal Seminars</h2>
-            <div class="work-item">
-                <h3>Quasi Turbine Engine</h3>
-                <a href="https://github.com/Anoopms21/Technical-Seminar.git" target="_blank" class="image fit thumb">
-        <img src="Images/Seminar main.png" alt="Quasi-Turbine" />
-      </a>
-                <p>Delivered a technical seminar on the Quasi-Turbine Engine, highlighting its unique rotary design and advantages over traditional piston engines.
+						</div>
+						<ul class="actions">
+							<li><a href="https://github.com/Aashish75?tab=repositories" target="_blank" class="button">All Projects</a></li>
+						</ul>
+					</section>
+			<!-- Two -->
+			<section id="publications">
+				<h2 style="color: #5f5d5d;">Technical Seminars</h2>
+				<div class="row">
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="https://github.com/Anoopms21/Technical-Seminar.git" target="_blank" class="image fit thumb">
+						<h3>Quasi Turbine Engine</h3>
+						<p>Delivered a technical seminar on the Quasi-Turbine Engine, highlighting its unique rotary design and advantages over traditional piston engines.
                     Explored its applications in high-efficiency, low-emission power generation and compact propulsion systems.</p>
-            </div>
-        </section>
+					</article>
+					
+			</section>
+					
+			</div>
 
-        <section id="All India Council for Technical Education(AICTE) programme">
-            <h2>At Acharya Institutes</h2>
-            <div class="work-item">
-                <h3></h3>
-                <a href="https://github.com/Anoopms21/AICTE-Activity-Point-Programme-Report.git" target="_blank" class="image fit thumb"><img src="images/projects/att_viz.png" alt="Heat-siks" /></a>
-                <p>The main objective of the scheme is to encourage students to pursue technical education in core branches of engineering.</p>
-            </div>
-        </section>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="MAILTO:anoopms2001@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://github.com/anoopms21/" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/anoopsubramanya/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="files/resume.pdf" target="_blank" class="icon solid fa-file-alt"><span class="label">Resume</span></a></li>
+					</ul>
 
-        <section id="Certifications">
-            <h2>1</h2>
-            <div class="work-item">
-                <h3>Publication 1</h3>
-                 <a href="https://github.com/Anoopms21/Certifications.git" target="_blank" class="image fit thumb"><img src="images/projects/att_viz.png" alt="Heat-siks" /></a>
-                <p>Details about publication 1...</p>
-            </div>
+					<ul class="copyright">
+						<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
 
-            <h2>2</h2>
-            <div class="work-item">
-                <h3>Publication 1</h3>
-                <p>Details about publication 1...</p>
-            </div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				document.addEventListener("DOMContentLoaded", function () {
+					document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+						anchor.addEventListener("click", function (e) {
+							e.preventDefault();
+							const target = document.querySelector(this.getAttribute("href"));
+							if (target) {
+								window.scrollTo({
+									top: target.offsetTop - 20,
+									behavior: "smooth"
+								});
+							}
+						});
+					});
+				});
+			</script>
 
-            <h2>3</h2>
-            <div class="work-item">
-                <h3>Publication 1</h3>
-                <p>Details about publication 1...</p>
-            </div>
-
-
-
-        </section>
-        
-    </div>
-
-</body>
+	</body>
 </html>

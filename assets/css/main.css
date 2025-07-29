@@ -33,13 +33,6 @@ body {
 	line-height: 1;
 }
 
-
-@media screen and (max-width: 768px) {
-  .project-grid .work-item {
-    width: 100%;
-  }
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -2699,10 +2692,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 10%;
+		margin-left: 30%;
 		max-width: 60em;
 		padding: 4em 4em 4em 4em;
-		width: calc(100 - 10%);
+		width: calc(100 - 30%);
 	}
 
 		#main > section {
@@ -3212,24 +3205,7 @@ input, select, textarea {
 				}
 
 	}
-/* Project Grid - Two per row */
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2em;
-  justify-content: space-between;
-}
 
-.project-grid .work-item {
-  width: calc(50% - 1em);
-}
-
-/* Responsive fallback: 1 per row on mobile */
-@media screen and (max-width: 768px) {
-  .project-grid .work-item {
-    width: 100%;
-  }
-}
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
