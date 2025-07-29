@@ -71,6 +71,9 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+#main-wrapper {
+  margin-left: 250px; /* Adjust based on the actual sidebar width */
+}
 
 /* Basic */
 
@@ -275,6 +278,11 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+
+  				#main {
+   				 padding-left: 0px;
+ 				 }
+				
 
 			.container {
 				width: 100% !important;
