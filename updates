@@ -1,0 +1,18 @@
+<div class="project-grid">
+    <div class="work-item">
+      <h3>F1 style DRS rear-wing aero-performance in Ansys</h3>
+      <a href="https://github.com/Anoopms21/F1-style-DRS-rear-wing-aero-performance-in-Ansys.git" target="_blank" class="image fit thumb">
+        <img src="Images/F1 wing main.png" alt="F1" />
+      </a>
+       <h3><p>Simulated F1 rear wing aerodynamics using Ansys Fluent, analyzing drag, downforce, and Cp distribution to optimize aerodynamic performance.</p></h3>
+    </div>
+
+
+
+     <div class="work-item">
+      <h3>Scale-Working model of Windtunel</h3>
+      <a href="https://github.com/Anoopms21/Scale-Working-model-of-Windtunel.git" target="_blank" class="image fit thumb">
+        <img src="Images/Windtunnel main.png" alt="Windtunnel" />
+      </a>
+      <h3><p>Simulated and optimized passive heat sink designs using Phoenix in Conda. Post-processed in ParaView for enhanced natural convection performance insights.</p></h3>
+    </div>
